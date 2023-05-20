@@ -1,0 +1,54 @@
+.chrono {
+  padding: 32px 0;
+  &__year {
+    padding: 32px 0;
+    font-family: "Ametist";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: $main-500;
+  }
+
+  &__tab {
+  }
+
+  &__nav {
+    display: flex;
+    gap: 74px;
+    padding: 32px 0;
+  }
+
+  &__nav-item {
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: $main-200;
+    border-top: 1px solid transparent;
+    transition: border-color 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      border-color: $main-500;
+    }
+    &.active {
+      font-weight: 700;
+      border-color: $main-500;
+    }
+  }
+
+  &__list {
+    min-height: 400px;
+  }
+
+  &__item {
+    display: none;
+  }
+
+  #tab-item-1 {
+    display: block;
+  }
+}

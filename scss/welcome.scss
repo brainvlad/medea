@@ -1,0 +1,39 @@
+.welcome {
+  &__col {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  &__title {
+    font-family: "Ametist";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10vw;
+    text-align: center;
+    color: $main-500;
+  }
+  &__sub {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    text-align: center;
+    color: $main-200;
+  }
+
+  &.bg-1 {
+    background: linear-gradient(
+        0deg,
+        rgba(14, 13, 1, 0.5),
+        rgba(14, 13, 1, 0.5)
+      ),
+      url(./../img/welcome-bg-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

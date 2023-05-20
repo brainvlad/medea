@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 32px 0;
+
+  &__col {
+    flex: 1;
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  &__sub {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__row {
+    display: flex;
+    row-gap: 60px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  &__row-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    flex-basis: 300px;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__btn {
+  }
+}
