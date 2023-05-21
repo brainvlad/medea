@@ -62,6 +62,14 @@ a {
   line-height: 29px;
   color: $main-200;
 }
+.head-title-sub {
+  padding-top: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $main-500;
+}
 
 .to-top {
   position: fixed;
@@ -107,5 +115,21 @@ a {
   padding: 32px 0;
   &__container {
     padding: 32px 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .map {
+    &__container {
+      & > iframe {
+        height: 200px;
+      }
+    }
+  }
+  .head-title {
+    text-align: center;
+  }
+  .head-title-sub {
+    text-align: center;
   }
 }

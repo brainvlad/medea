@@ -1,0 +1,42 @@
+.employee {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  &__item {
+    flex: 1;
+    flex-basis: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  &__post {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  &__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $main-500;
+  }
+
+  &__tel {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $main-200;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

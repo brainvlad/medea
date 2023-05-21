@@ -20,6 +20,9 @@
           <img src="./img/header-ogo.svg" alt="" />
         </a>
         <nav class="header__navbar">
+          <a href="./index.html" class="header__link" id="link-index"
+            >Главная</a
+          >
           <a href="./afisha.html" class="header__link">Афиша</a>
           <a href="./history.html" class="header__link">История</a>
           <a href="./contact.html" class="header__link">Контакты</a>
@@ -36,14 +39,14 @@
         <h2 class="head-title">Афиша</h2>
         <div class="afisha__list">
           <div class="afisha__item">
-            <div class="afisha__img">
+            <a href="./item.html" class="afisha__img">
               <img src="./img/af-1.png" alt="" />
               <div class="afisha__date">
                 <div class="afisha__date-week">СР</div>
                 <div class="afisha__date-day">01</div>
                 <div class="afisha__date-mounth">Март</div>
               </div>
-            </div>
+            </a>
             <div class="afisha__info">
               <div class="afisha__name">Чувства</div>
               <div class="afisha__desc">Песня в одном действии</div>
@@ -112,12 +115,12 @@
 
         <div class="chrono__tab">
           <div class="chrono__nav">
-            <div class="chrono__nav-item active" id="tab-1">Премьеры</div>
-            <div class="chrono__nav-item" id="tab-2">Фестивали</div>
-            <div class="chrono__nav-item" id="tab-3">Туры</div>
+            <div class="chrono__nav-item active" data-tab="1">Премьеры</div>
+            <div class="chrono__nav-item" data-tab="2">Фестивали</div>
+            <div class="chrono__nav-item" data-tab="3">Туры</div>
           </div>
           <div class="chrono__list">
-            <div class="chrono__item" id="tab-item-1">
+            <div class="chrono__item" data-tabitem="1">
               17 декабря 2022 г. — «Аферисты» (по пьесе М. Гогала «Игроки»),
               режиссёр — Сергей Федотов, сценограф и художник по костюмам —
               Сергей Федотов, композитор — Александр Пантыкин, перевод — Мария
@@ -140,7 +143,7 @@
               художник – Татьяна Нерсисян, композитор и музыкальный руководитель
               – Катя Аверкава
             </div>
-            <div class="chrono__item" id="tab-item-2">
+            <div class="chrono__item" data-tabitem="2">
               VIII Рэспубліканскі фестываль нацыянальнай драматургіі імя В. І.
               Дуніна-Марцінкевіча (Бабруйск, Беларусь), лістапад 2022г.
               Спектакль “Альпійская балада” В. Быкава. “Лепшая мужчынская роля
@@ -160,12 +163,13 @@
               III Міжнародны тэатральны анлайн-марафон “Дарогі Перамогі”, май
               2022 г. Спектакль “Дзед” В. Паніна
             </div>
-            <div class="chrono__item" id="tab-item-3">
+            <div class="chrono__item" data-tabitem="3">
               25 лютага 2022г. – спектакль “Адамавы жарты” паводле твораў Ф.
               Аляхновіча і Л. Родзевіча (Салігорск, Беларусь) <br /><br />
               9 красавіка 2022г. – спектакль “Дзед” В. Паніна (Вілейка,
               Беларусь) 15 красавіка 2022г. – спектаклі “Дзед” В. Паніна,
-              “Залатое сэрцайка” С. Навуменка (Дзяржынск, Беларусь) <br /><br />
+              “Залатое сэрцайка” С. Навуменка (Дзяржынск, Беларусь)
+              <br /><br />
               18 мая 2022г. – спектаклі “Адамавы жарты” паводле твораў Ф.
               Аляхновіча і Л. Родзевіча, “Залатое сэрцайка” С. Навуменка
               (Новалукомль, Беларусь) <br /><br />10 чэрвеня 2022г. – спектакль
